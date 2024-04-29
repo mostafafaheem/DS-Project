@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="database.cpp" />
     <ClCompile Include="DS-PROJECT.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="trie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="database.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="models.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="trie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
