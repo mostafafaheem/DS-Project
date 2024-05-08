@@ -1,2 +1,86 @@
 ﻿  DS-PROJECT.cpp
+D:\vs\DS-PROJECT\models.h(16,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_parser_merged.h(587,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_parser_merged.h(607,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\json.h(1262,39): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\json.h(1733,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(97,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(116,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(118,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(219,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(367,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(378,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(396,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(407,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(469,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(569,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(885,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(906,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(927,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(949,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(965,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(980,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1035,53): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1046,45): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1289): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1289): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1336,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1502,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(200): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(200,1): message : while compiling class template member function 'uint16_t crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::pick_io_service_idx(void)'
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(219,38): message : see reference to function template instantiation 'uint16_t crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::pick_io_service_idx(void)' being compiled
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\app.h(357,1): message : see reference to class template instantiation 'crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>' being compiled
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\app.h(336,1): message : while compiling class template member function 'void crow::Crow<crow::CORSHandler>::run(void)'
+D:\vs\DS-PROJECT\DS-PROJECT.cpp(106,39): message : see reference to function template instantiation 'void crow::Crow<crow::CORSHandler>::run(void)' being compiled
+D:\vs\DS-PROJECT\DS-PROJECT.cpp(32,34): message : see reference to class template instantiation 'crow::Crow<crow::CORSHandler>' being compiled
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(475,75): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(467,1): message : while compiling class template member function 'void crow::Connection<Adaptor,Handler,crow::CORSHandler>::do_read(void)'
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(90,34): message : see reference to function template instantiation 'void crow::Connection<Adaptor,Handler,crow::CORSHandler>::do_read(void)' being compiled
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(216): message : see reference to class template instantiation 'crow::Connection<Adaptor,Handler,crow::CORSHandler>' being compiled
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(216,1): message : while compiling class template member function 'void crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::do_accept(void)'
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(153,22): message : see reference to function template instantiation 'void crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::do_accept(void)' being compiled
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\parser.h(126,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\parser.h(111,1): message : while compiling class template member function 'bool crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>::feed(const char *,int)'
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(475,32): message : see reference to function template instantiation 'bool crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>::feed(const char *,int)' being compiled
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
+C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(587,1): message : see reference to class template instantiation 'crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>' being compiled
+          with
+          [
+              Adaptor=crow::SocketAdaptor,
+              Handler=crow::Crow<crow::CORSHandler>
+          ]
   DS-PROJECT.vcxproj -> D:\vs\DS-PROJECT\x64\Debug\DS-PROJECT.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

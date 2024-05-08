@@ -9,8 +9,7 @@ using namespace std;
 
     
 
-void database::addListing(float price, string name, string city, string country, string state) {
-        map<string, string> location = { {"city", city}, {"country", country}, {"state", state} };
+void database::addListing(float price, string name,string location) {
 
         property p(name, location, price);
         for (property i : listings) {

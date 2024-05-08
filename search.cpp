@@ -14,7 +14,7 @@ using namespace std;
     vector<property> search::filterByLocation(string state) {
         vector<property> ans;
         for (property i : listings) {
-            if (i.location["state"] == state) ans.push_back(i);
+            if (i.location == state) ans.push_back(i);
         }
         return ans;
     }

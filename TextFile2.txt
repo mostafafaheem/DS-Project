@@ -1,0 +1,51 @@
+using namespace std;
+#include<algorithm>
+#include "user.h"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <limits>
+
+void registerUser(,string& username,string& password,string& phoneNumber) {
+    user newUser;
+    cout << "Enter your username :";
+    newUser.username = username;
+
+    
+    cout << "Enter your password (From 8 to 16 characters) : ";
+    do {
+        cin >> newUser.password;
+        if (newUser.password.length() < 8 || newUser.password.length() > 16) {
+            cout << "Invalid password. Please enter from 8 to 16 characters: ";
+        }
+    } while (newUser.password.length() < 8 || newUser.password.length() > 16);
+
+    
+    cout << "Enter your phone number (11 digits only) :";
+    do {
+        cin >> newUser.phoneNumber;
+        if (newUser.phoneNumber.length() != 11 || !all_of(newUser.phoneNumber.begin(), newUser.phoneNumber.end(), ::isdigit)) {
+            cout << "Invalid phone number. Please enter 11 digits: ";
+        }
+    } while (newUser.phoneNumber.length() != 11 || !all_of(newUser.phoneNumber.begin(), newUser.phoneNumber.end(), ::isdigit));
+
+    userList.push_back(newUser);
+}
+
+bool loginUser(vector<user>& userList, string& username, string& password) {
+    for (user& user : userList) {
+        if (user.username == username && user.password == password) {
+            cout << "Login successful. Welcome, " << username << "!" << endl;
+            return true;
+        }
+    }
+    cout << "Invalid username or password. Please try again." << endl;
+    return false;
+}
+#include<iostream>
+#include<string>
+#include <vector>
+using namespace std; 
+
+void registerUser(vector<user>& userList, string& username, string& password, string& phoneNumber);
+bool loginUser(vector<user>& userList, string& username, string& password);

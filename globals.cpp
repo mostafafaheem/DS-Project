@@ -8,3 +8,5 @@ using namespace std;
 
 Trie* trie = new Trie();
 vector<property> listings;
+vector<user*> usersList;
+user* currentLoggedIn = NULL;

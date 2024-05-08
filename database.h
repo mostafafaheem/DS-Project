@@ -10,7 +10,7 @@
 
 class database {
 public:
-    void addListing(float price, std::string name, std::string city, std::string country, std::string state);
+    void addListing(float price, std::string name, std::string location);
 
 
 };

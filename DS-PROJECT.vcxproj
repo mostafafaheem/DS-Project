@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="auth.cpp" />
     <ClCompile Include="database.cpp" />
+    <ClCompile Include="display.cpp" />
     <ClCompile Include="DS-PROJECT.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="listingsTree.cpp" />
@@ -135,7 +138,10 @@
     <ClCompile Include="trie.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="auth.h" />
     <ClInclude Include="database.h" />
+    <ClInclude Include="display.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="listingsTree.h" />
     <ClInclude Include="models.h" />
