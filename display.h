@@ -8,6 +8,6 @@ using namespace std;
 class Display {
 public:
 	void mainWindow();
-	void loginWinodw();
+	void loginWindow();
 	void signupWindow();
 };

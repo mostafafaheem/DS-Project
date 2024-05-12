@@ -9,6 +9,5 @@ public:
 	void deleteProperty(int id);
 	void editProperty(int id, string editName, string edit);
 	void approveProperty(int id);
-	bool isAdmin();
-	void highlight(int id);
+	void highlightProperty(int id);
 };

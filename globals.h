@@ -7,4 +7,4 @@ using namespace std;
 extern Trie* trie;
 extern vector<property> listings;
 extern vector<user*> usersList;
-extern user* currentLoggedIn;
+extern User* currentLoggedIn;

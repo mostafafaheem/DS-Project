@@ -31,7 +31,7 @@ void Admin::approveProperty(int id) {
 }
 
 
-void Admin::highlight(int id) {
+void Admin::highlightProperty(int id) {
 	if (!isAdmin()) return;
 	for (property i : listings) {
 		if (i.id == id) i.highlighted = true;
@@ -39,6 +39,3 @@ void Admin::highlight(int id) {
 }
 //add functionality to remove highlights, include user prompts
 
-bool Admin::isAdmin() {
-	return (currentLoggedIn != NULL && currentLoggedIn->isAdmin);
-}

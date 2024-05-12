@@ -3,18 +3,37 @@
 #include "globals.h"
 
 string Auth::registerUser(string username, string email, string password, string phone) {
-	user* newUser = new user(username, email, password, phone);
+	User* newUser = new User(username, email, password, phone);
 	usersList.push_back(newUser);
 	return "success";
 }
 
-bool Auth::loginUser(char method, string accountInfo, string password) {
-	
-	for (user* User : usersList) {
-		if (User->email == email && User->password == password) {
-			currentLoggedIn = User;
-			return true;
+bool Auth::loginUser(int loginType, string accountInfo, string password) {
+	switch (loginType) {
+	case 1:
+		for (User* User : usersList) {
+			if (User->email == accountInfo && User->password == password) {
+				currentLoggedIn = User;
+				return true;
+			}
 		}
+		break;
+	case 2:
+		for (User* User : usersList) {
+			if (User->username == accountInfo && User->password == password) {
+				currentLoggedIn = User;
+				return true;
+			}
+		}
+		break;
+	case 3:
+		for (User* User : usersList) {
+			if (User->phoneNumber == accountInfo && User->password == password) {
+				currentLoggedIn = User;
+				return true;
+			}
+		}
+		break;
 	}
 	return false;
 }

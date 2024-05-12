@@ -17,6 +17,7 @@ public:
     //string type;
     //string description;
     //string features;
+    //authorizedby??
     std::string name;
     std::string location;
     float price;
@@ -37,6 +38,9 @@ public:
     std::string email;
     std::string password;
     std::string phoneNumber;
+    //std::string name;
+    //includelistedproperties??
+
     bool isAdmin;
     User(const std::string& username, const std::string& email, const std::string& password, const std::string& phoneNumber)
         : username(username), email(email), password(password), phoneNumber(phoneNumber) isAdmin(false) {}
