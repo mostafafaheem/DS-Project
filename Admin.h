@@ -3,6 +3,7 @@
 #include<string>
 #include "globals.h"
 using namespace std;
+
 class Admin {
 public:
 	void deleteProperty(int id);

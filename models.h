@@ -1,37 +1,43 @@
-#pragma once
+//#pragma once
 #include <string>
 #include <map>
 #include<vector>
 #include<math.h>
+#include <atomic>
+
 using namespace std;
-class property {
+
+class Property {
+private:
+    static std::atomic<int> idCounter;
 public:
-    std::string name;
     int id;
-    string location;
-    int price;
-    bool highlighted;
+    //int beds;
+    //int baths;
+    //string type;
+    //string description;
+    //string features;
+    std::string name;
+    std::string location;
+    float price;
     bool approved;
-    property(const std::string& n, string loc, float p)
-        : name(n), location(loc), price(p) {
-        approved = false;
-        id = rand() * 10000;
-        highlighted = false;
+    bool highlighted;
+
+    Property(const std::string& n, const std::string& loc, float p)
+        : name(n), location(loc), price(p), approved(false), highlighted(false) {
+        id = ++idCounter;
     }
 };
 
-class user
-{
+std::atomic<int> Property::idCounter{ 0 };
+
+class User {
 public:
-    user(string username, string email, string password, string pnoneNumber) {
-        this->email = email;
-        this->password = password;
-        this->username = username;
-        this->phoneNumber = phoneNumber;
-    }
-    string username;
-    string email;
-    string password;
-    string phoneNumber;
-    bool isAdmin = false;
+    std::string username;
+    std::string email;
+    std::string password;
+    std::string phoneNumber;
+    bool isAdmin;
+    User(const std::string& username, const std::string& email, const std::string& password, const std::string& phoneNumber)
+        : username(username), email(email), password(password), phoneNumber(phoneNumber) isAdmin(false) {}
 };

@@ -2,8 +2,7 @@
 #include <string>
 #include <iostream>
 #include <map>
-
-#include<vector>
+#include <vector>
 #include "search.h"
 #include <crow.h>
 #include "auth.h"
@@ -11,11 +10,6 @@
 #include "crow/middlewares/cors.h"
 
 using namespace std;
-
-
-
-
-
 
 int main()
 {
@@ -33,9 +27,6 @@ int main()
 
     // Customize CORS
     
-   
-    
-
     CROW_ROUTE(app, "/auth/register")
         .methods("POST"_method)
         ([](const crow::request& req) {
@@ -48,8 +39,6 @@ int main()
             crow::response response;
             response.set_header("Content-Type", "application/json"); 
             response.set_header("Access-Control-Allow-Origin", "*"); 
-           
-
 
             string name = json["username"].s();
             string password = json["password"].s();
@@ -79,9 +68,6 @@ int main()
                 response.end() ;
             }
 
-
-
-
             string email = json["Email"].s();
             string password = json["password"].s();
 
@@ -91,7 +77,6 @@ int main()
                 response.code = 400;
                 response.end();
             }
-            
             
             response.write("{email:"+email+"}");
             response.end();
@@ -107,7 +92,3 @@ int main()
     return 0;
 
 }
-
-
-
-

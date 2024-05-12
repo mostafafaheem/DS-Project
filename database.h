@@ -11,8 +11,6 @@
 class database {
 public:
     void addListing(float price, std::string name, std::string location);
-
-
 };
 
 #endif 

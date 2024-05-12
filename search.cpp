@@ -1,16 +1,15 @@
 #include <iostream>
-#include<vector>
+#include <vector>
 #include "search.h"
 #include "models.h"
 #include "globals.h"
 
 using namespace std;
 
-
     vector<string> search::searchByName(string pre) {
         return trie->searchPre(pre);
-
     }
+
     vector<property> search::filterByLocation(string state) {
         vector<property> ans;
         for (property i : listings) {
@@ -18,6 +17,7 @@ using namespace std;
         }
         return ans;
     }
+
     vector<property> search::filterByPrice(float min, float max) {
         vector<property> ans;
         for (property i : listings) {

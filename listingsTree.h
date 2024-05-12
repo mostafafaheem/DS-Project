@@ -9,12 +9,7 @@ public:
     listingNode();
     listingNode(property *prop);
     void updateHeight();
-    
     int balanceFactor();
-   
-   
-
-
 };
 
 class listingsTree
@@ -27,8 +22,6 @@ public:
     listingNode* insert(listingNode* root,property* prop);
     listingNode* leftRotation(listingNode* root);
     listingNode* rightRotation(listingNode* root);
-
-	
 
 };
 

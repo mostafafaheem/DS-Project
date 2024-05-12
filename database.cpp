@@ -1,3 +1,4 @@
+
 #include <string>
 #include <map>
 #include<vector>
@@ -5,9 +6,6 @@
 #include "globals.h"
 #include "database.h"
 using namespace std;
-
-
-    
 
 void database::addListing(float price, string name,string location) {
 
@@ -17,9 +15,7 @@ void database::addListing(float price, string name,string location) {
                 return;
             }
         }
+
         listings.push_back(p);
         trie->insert(name);
-
-
     }
-

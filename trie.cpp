@@ -1,5 +1,3 @@
-// trie.cpp
-
 #include "trie.h"
 
 Trie::Trie() {
