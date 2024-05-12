@@ -43,5 +43,7 @@ public:
 
     bool isAdmin;
     User(const std::string& username, const std::string& email, const std::string& password, const std::string& phoneNumber)
-        : username(username), email(email), password(password), phoneNumber(phoneNumber) isAdmin(false) {}
+        : username(username), email(email), password(password), phoneNumber(phoneNumber) {
+        isAdmin = false;
+    }
 };

@@ -2,10 +2,9 @@
 #include "models.h"
 #include "globals.h"
 
-string Auth::registerUser(string username, string email, string password, string phone) {
+void Auth::registerUser(string username, string email, string password, string phone) {
 	User* newUser = new User(username, email, password, phone);
 	usersList.push_back(newUser);
-	return "success";
 }
 
 bool Auth::loginUser(int loginType, string accountInfo, string password) {

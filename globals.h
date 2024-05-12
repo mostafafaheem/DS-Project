@@ -5,6 +5,6 @@
 
 using namespace std;
 extern Trie* trie;
-extern vector<property> listings;
-extern vector<user*> usersList;
+extern vector<Property> listings;
+extern vector<User*> usersList;
 extern User* currentLoggedIn;

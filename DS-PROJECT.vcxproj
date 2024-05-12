@@ -132,6 +132,7 @@
     <ClCompile Include="database.cpp" />
     <ClCompile Include="display.cpp" />
     <ClCompile Include="DS-PROJECT.cpp" />
+    <ClCompile Include="files.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="listingsTree.cpp" />
     <ClCompile Include="search.cpp" />
@@ -142,6 +143,7 @@
     <ClInclude Include="auth.h" />
     <ClInclude Include="database.h" />
     <ClInclude Include="display.h" />
+    <ClInclude Include="files.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="listingsTree.h" />
     <ClInclude Include="models.h" />

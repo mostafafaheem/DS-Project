@@ -1,8 +1,10 @@
-#include<iostream>
+#include <iostream>
+#include <bcrypt.h>
+
 using namespace std;
 
 class Auth {
 public:
-	string registerUser(string username, string email, string password, string phone);
+	void registerUser(string username, string email, string password, string phone);
 	bool loginUser(int loginType, string accountInfo, string password);
 };

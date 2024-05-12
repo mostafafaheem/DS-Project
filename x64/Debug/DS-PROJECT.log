@@ -1,86 +1,194 @@
-﻿  DS-PROJECT.cpp
-D:\vs\DS-PROJECT\models.h(16,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_parser_merged.h(587,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_parser_merged.h(607,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
-  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
-  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
-  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
-  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\json.h(1262,39): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\json.h(1733,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(97,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(116,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(118,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(219,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(367,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(378,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(396,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(407,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(469,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\mustache.h(569,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(885,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(906,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(927,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(949,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(965,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(980,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1035,53): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1046,45): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1289): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1289): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1336,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\routing.h(1502,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(200): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(200,1): message : while compiling class template member function 'uint16_t crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::pick_io_service_idx(void)'
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(219,38): message : see reference to function template instantiation 'uint16_t crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::pick_io_service_idx(void)' being compiled
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\app.h(357,1): message : see reference to class template instantiation 'crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>' being compiled
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\app.h(336,1): message : while compiling class template member function 'void crow::Crow<crow::CORSHandler>::run(void)'
-D:\vs\DS-PROJECT\DS-PROJECT.cpp(106,39): message : see reference to function template instantiation 'void crow::Crow<crow::CORSHandler>::run(void)' being compiled
-D:\vs\DS-PROJECT\DS-PROJECT.cpp(32,34): message : see reference to class template instantiation 'crow::Crow<crow::CORSHandler>' being compiled
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(475,75): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(467,1): message : while compiling class template member function 'void crow::Connection<Adaptor,Handler,crow::CORSHandler>::do_read(void)'
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(90,34): message : see reference to function template instantiation 'void crow::Connection<Adaptor,Handler,crow::CORSHandler>::do_read(void)' being compiled
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(216): message : see reference to class template instantiation 'crow::Connection<Adaptor,Handler,crow::CORSHandler>' being compiled
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(216,1): message : while compiling class template member function 'void crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::do_accept(void)'
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_server.h(153,22): message : see reference to function template instantiation 'void crow::Server<crow::Crow<crow::CORSHandler>,crow::SocketAdaptor,crow::CORSHandler>::do_accept(void)' being compiled
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\parser.h(126,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\parser.h(111,1): message : while compiling class template member function 'bool crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>::feed(const char *,int)'
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(475,32): message : see reference to function template instantiation 'bool crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>::feed(const char *,int)' being compiled
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-C:\Users\الاريا-ويليام-مايكل\Desktop\vc\vcpkg-master\installed\x64-windows\include\crow\http_connection.h(587,1): message : see reference to class template instantiation 'crow::HTTPParser<crow::Connection<Adaptor,Handler,crow::CORSHandler>>' being compiled
-          with
-          [
-              Adaptor=crow::SocketAdaptor,
-              Handler=crow::Crow<crow::CORSHandler>
-          ]
-  DS-PROJECT.vcxproj -> D:\vs\DS-PROJECT\x64\Debug\DS-PROJECT.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  Admin.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(42,1): fatal  error C1004: unexpected end-of-file found
+  auth.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(39,1): fatal  error C1004: unexpected end-of-file found
+  database.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(29,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(29,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(30,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(31,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(1465,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(14,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(14,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(15,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(16,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(1774,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(38,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(14,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(14,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(15,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(16,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(172,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(12,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(12,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(13,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(14,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(52,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(12,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(12,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(13,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(14,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(106,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(25,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(25,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(26,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(27,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(664,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(14,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(14,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(15,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(16,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(21,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(16,26): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(18,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(18,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(39,1): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(39,1): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(67,1): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(71,26): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(145,26): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(216,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(70,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(21,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(21,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(22,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(23,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(4311,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(12,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(12,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(13,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(14,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(46,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(12,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(12,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(13,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(14,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(45,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(15,26): warning C4081: expected ')'; found 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(18,1): warning C4079: unexpected token 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(18,1): warning C4081: expected 'newline'; found ')'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(181,1): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(14,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(14,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(15,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(16,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(30,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(20,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(20,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(21,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(22,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(458,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(18,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(18,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(19,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(20,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(808,5): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(822,9): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(901,13): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(1199,13): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(3289,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(15,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(15,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(16,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(17,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(561,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(414,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(18,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(18,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(19,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(20,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(1271,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(1619,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(315,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(21,24): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(107,9): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(1084,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(21,24): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(934,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(73,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(22,1): fatal  error C1004: unexpected end-of-file found
+  display.cpp
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(4,12): error C2011: 'Auth': 'class' type redefinition
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(4,7): message : see declaration of 'Auth'
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(193,1): fatal  error C1004: unexpected end-of-file found
+  DS-PROJECT.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(4417,28): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(10619,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(21,1): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(208,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(504,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(13,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(13,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(14,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(15,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(134,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(14,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(14,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(15,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(16,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(917,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(15,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(15,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(16,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(17,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(1083,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(18,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(18,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(19,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(20,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(239,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(30,9): warning C4079: unexpected token 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(30,32): warning C4081: expected 'newline'; found ')'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(31,23): warning C4081: expected 'constant'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(32,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(4479,27): warning C4081: expected ')'; found 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(4629,9): warning C4161: #pragma pack(pop...): more pops than pushes
+C:\Users\Mostafa\source\repos\DS-Project\DS-PROJECT.cpp(80,1): fatal  error C1004: unexpected end-of-file found
+  globals.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(13,1): fatal  error C1004: unexpected end-of-file found
+  listingsTree.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\listingsTree.cpp(78,1): fatal  error C1004: unexpected end-of-file found
+  search.cpp
+C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(28,1): fatal  error C1004: unexpected end-of-file found
+  trie.cpp
+  Generating Code...
