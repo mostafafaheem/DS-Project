@@ -2,6 +2,16 @@
 #include "models.h"
 #include "globals.h"
 
+//string Auth::hashPassword(const string& password) {
+//	char salt[BCRYPT_HASHSIZE];
+//	bcrypt_gensalt(12, salt);
+//
+//	char hash[BCRYPT_HASHSIZE];
+//	bcrypt_hashpw(password.c_str(), salt, hash);
+//
+//	return string(hash);
+//}
+
 void Auth::registerUser(string username, string email, string password, string phone) {
 	User* newUser = new User(username, email, password, phone);
 	usersList.push_back(newUser);

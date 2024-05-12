@@ -26,7 +26,7 @@ void Display::mainWindow() {
         Admin session;
         if (currentLoggedIn != NULL && currentLoggedIn->isAdmin)
         {
-            cout << "Welcome back Mr. " << name << "! choose which action you want to perform:";
+            cout << "Welcome back Mr. " << "name" << "! choose which action you want to perform:";
             int adminSelection;
             do
             {
