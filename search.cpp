@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
 #include "search.h"
-#include "models.h"
-#include "globals.h"
 
 using namespace std;
 

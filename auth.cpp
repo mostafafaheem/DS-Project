@@ -1,6 +1,4 @@
 #include "auth.h"
-#include "models.h"
-#include "globals.h"
 
 //string Auth::hashPassword(const string& password) {
 //	char salt[BCRYPT_HASHSIZE];

@@ -134,7 +134,6 @@
     <ClCompile Include="DS-PROJECT.cpp" />
     <ClCompile Include="files.cpp" />
     <ClCompile Include="globals.cpp" />
-    <ClCompile Include="listingsTree.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="trie.cpp" />
   </ItemGroup>
@@ -145,7 +144,6 @@
     <ClInclude Include="display.h" />
     <ClInclude Include="files.h" />
     <ClInclude Include="globals.h" />
-    <ClInclude Include="listingsTree.h" />
     <ClInclude Include="models.h" />
     <ClInclude Include="search.h" />
     <ClInclude Include="trie.h" />

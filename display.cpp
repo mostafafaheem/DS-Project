@@ -1,9 +1,6 @@
 #include "display.h"
-#include "auth.h"
-#include "models.h"
-#include "globals.h"
-#include "admin.h"
-using namespace std;
+#include "globals.cpp"
+
 void Display::mainWindow() {
     cout <<""<< "Are you an existing user? (select 1), or would you like to create an account? (select 2): ";
     bool validInput = false;
@@ -58,6 +55,14 @@ void Display::mainWindow() {
             cout << "3-Compare properties" << endl;
             cout << "4-Post your own property" << endl;
             int userSelection;
+            int beds;
+            int baths;
+            string type;
+            string description;
+            string location;
+            float price;
+            int saleRent;
+
             do
             {
             switch (userSelection)
@@ -70,13 +75,6 @@ void Display::mainWindow() {
             case 3:
                 break;
             case 4:
-                int beds;
-                int baths;
-                string type;
-                string description;
-                string location;
-                float price;
-                int saleRent;
                 cout << "Where is your property located?" << endl;
                 cin >> location;
                 cout << "How many bedrooms does your property have?" << endl;
@@ -90,7 +88,7 @@ void Display::mainWindow() {
                     if (saleRent == 1)
                         type = "rental";
                     else if (saleRent == 2)
-                        type == "sale"
+                        type == "sale";
                     else
                         cout << "Invalid choice, please try again!";
                 } while (saleRent == 1 || saleRent == 2);
@@ -100,11 +98,11 @@ void Display::mainWindow() {
                 cin >> price;
                 ++idCounter;
                 propertyMap[idCounter] = Property(idCounter, beds, baths, type, description, location, price);
-                properties.insert(price, &propertyMap[idCounter]);
+                properties.insert(price, & propertyMap[idCounter]);
                  
                 break;
             default:
-                cout << "Invalid choice, please try again!"
+                cout << "Invalid choice, please try again!";
                     break;
                 }
             } while (userSelection == 1 || userSelection == 2 || userSelection == 3 || userSelection == 4);

@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string>
 #include "globals.h"
+
 using namespace std;
 
 class Admin {

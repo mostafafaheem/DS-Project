@@ -1,7 +1,4 @@
-#include<iostream>
 #include "Admin.h"
-#include "globals.h"
-using namespace std;
 
 void Admin::deleteProperty(int id) {
 	if (currentLoggedIn == NULL || !currentLoggedIn->isAdmin) return;
