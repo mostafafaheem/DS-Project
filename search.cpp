@@ -10,17 +10,17 @@ using namespace std;
         return trie->searchPre(pre);
     }
 
-    vector<property> search::filterByLocation(string state) {
-        vector<property> ans;
-        for (property i : listings) {
+    vector<Property> search::filterByLocation(string state) {
+        vector<Property> ans;
+        for (Property i : listings) {
             if (i.location == state) ans.push_back(i);
         }
         return ans;
     }
 
-    vector<property> search::filterByPrice(float min, float max) {
-        vector<property> ans;
-        for (property i : listings) {
+    vector<Property> search::filterByPrice(float min, float max) {
+        vector<Property> ans;
+        for (Property i : listings) {
             if (i.price >= min && i.price <= max) ans.push_back(i);
         }
         return ans;

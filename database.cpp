@@ -9,8 +9,8 @@ using namespace std;
 
 void database::addListing(float price, string name,string location) {
 
-        property p(name, location, price);
-        for (property i : listings) {
+        Property p(name, location, price);
+        for (Property i : listings) {
             if (i.name == name) {
                 return;
             }

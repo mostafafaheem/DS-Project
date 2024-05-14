@@ -14,7 +14,6 @@ vector<User> Files::readUserDataFromFile(const string& filename) {
     return users;
 }
 
-// Function to write user data to file stream
 void Files::writeUserDataToFile(const string& filename, const vector<User>& users) {
     ofstream file(filename);
     if (file.is_open()) {
