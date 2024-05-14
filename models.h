@@ -8,8 +8,6 @@
 using namespace std;
 
 class Property {
-private:
-    static std::atomic<int> idCounter;
 public:
     int id;
     int beds;
@@ -23,9 +21,8 @@ public:
     bool approved;
     bool highlighted;
 
-    Property(const int& beds, const int& baths, const string& type, const string& description , const string& loc, float p)
+    Property(const int& id, const int& beds, const int& baths, const string& type, const string& description , const string& loc, float p)
         : location(loc), price(p), beds(beds), baths(baths), type(type), description(description) {
-        id = ++idCounter;
         approved = false;
         highlighted = false;
         listedBy = currentLoggedIn;
