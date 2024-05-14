@@ -4,7 +4,8 @@
 #include <conio.h>
 #include "auth.h"
 #include "display.h"
-#include "models.h"
+#include "property.h"
+#include "user.h"
 #include "globals.h"
 #include "admin.h"
 using namespace std;

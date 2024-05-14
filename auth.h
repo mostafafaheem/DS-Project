@@ -1,6 +1,7 @@
 #include <iostream>
-#include <bcrypt.h>
-#include "models.h"
+//#include <bcrypt.h>
+#include "property.h"
+#include "user.h"
 #include "globals.h"
 
 using namespace std;

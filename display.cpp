@@ -62,7 +62,6 @@ void Display::mainWindow() {
             string location;
             float price;
             int saleRent;
-
             do
             {
             switch (userSelection)
@@ -96,7 +95,6 @@ void Display::mainWindow() {
                 cin >> description;
                 cout << "How much would you like to list your property for?" << endl;
                 cin >> price;
-                ++idCounter;
                 propertyMap[idCounter] = Property(idCounter, beds, baths, type, description, location, price);
                 properties.insert(price, & propertyMap[idCounter]);
                  

@@ -17,9 +17,9 @@ vector<User> Files::readUserDataFromFile(const string& filename) {
 void Files::writeUserDataToFile(const string& filename, const vector<User>& users) {
     ofstream file(filename);
     if (file.is_open()) {
-        for (const auto& user : users) {
-            file << user.username << " " << user.password << " " << user.email << " "
-                << user.phoneNumber << " " << user.isAdmin << endl;
+        for (const auto& User : users) {
+            file << users.username << " " << users.password << " " << users.email << " "
+                << users.phoneNumber << " " << users.isAdmin << endl;
         }
         file.close();
     }

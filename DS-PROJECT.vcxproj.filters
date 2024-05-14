@@ -42,6 +42,9 @@
     <ClCompile Include="files.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rbtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h">
@@ -50,7 +53,7 @@
     <ClInclude Include="trie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="models.h">
+    <ClInclude Include="property.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="database.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,7 +6,8 @@
 #include <vector>
 #include <iostream>
 #include "globals.h"
-#include "models.h"
+#include "property.h"
+#include "user.h"
 
 using namespace std;
 

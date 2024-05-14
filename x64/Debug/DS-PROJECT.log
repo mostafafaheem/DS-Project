@@ -1,194 +1,133 @@
 ﻿  Admin.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(42,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(5,22): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,7): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,29): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,44): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,20): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,16): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,18): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,28): error C2143: syntax error: missing ';' before ')'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(15,30): error C2039: 'name': is not a member of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(16,66): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,20): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,16): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,18): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,28): error C2143: syntax error: missing ';' before ')'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,20): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,16): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,18): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,28): error C2143: syntax error: missing ';' before ')'
   auth.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(39,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(14,26): error C2661: 'User::User': no overloaded function takes 4 arguments
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(14,26): message : while trying to match the argument list '(std::string, std::string, std::string, std::string)'
   database.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(29,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(29,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(30,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(31,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath(1465,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(14,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(14,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(15,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(16,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator(1774,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp(38,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(14,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(14,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(15,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(16,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(172,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(12,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(12,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(13,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(14,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h(52,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(12,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(12,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(13,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(14,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h(106,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(25,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(25,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(26,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(27,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(664,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(14,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(14,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(15,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(16,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(21,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(16,26): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(18,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(18,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(39,1): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(39,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(67,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(71,26): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(145,26): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h(216,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo(70,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(21,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(21,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(22,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(23,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(4311,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(12,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(12,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(13,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(14,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet(46,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(12,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(12,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(13,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(14,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp(45,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(15,26): warning C4081: expected ')'; found 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(18,1): warning C4079: unexpected token 'string'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(18,1): warning C4081: expected 'newline'; found ')'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h(181,1): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(14,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(14,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(15,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(16,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale(30,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(20,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(20,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(21,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(22,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo(458,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(18,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(18,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(19,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(20,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(808,5): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(822,9): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(901,13): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(1199,13): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale(3289,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(15,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(15,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(16,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(17,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase(561,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf(414,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(18,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(18,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(19,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(20,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(1271,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum(1619,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios(315,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(21,24): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(107,9): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(1084,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(21,24): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream(934,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream(73,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Mostafa\source\repos\DS-Project\database.cpp(22,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(7,19): error C2661: 'Property::Property': no overloaded function takes 3 arguments
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(7,19): message : while trying to match the argument list '(std::string, std::string, float)'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(8,27): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(8,23): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(8,25): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(8,35): error C2143: syntax error: missing ';' before ')'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(9,19): error C2039: 'name': is not a member of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\database.cpp(14,9): error C2065: 'listings': undeclared identifier
   display.cpp
-C:\Users\Mostafa\source\repos\DS-Project\auth.h(4,12): error C2011: 'Auth': 'class' type redefinition
-C:\Users\Mostafa\source\repos\DS-Project\auth.h(4,7): message : see declaration of 'Auth'
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(193,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(34,28): error C2660: 'Admin::deleteProperty': function does not take 0 arguments
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(10,7): message : see declaration of 'Admin::deleteProperty'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(34,28): message : while trying to match the argument list '()'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(37,28): error C2660: 'Admin::editProperty': function does not take 0 arguments
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(11,7): message : see declaration of 'Admin::editProperty'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(37,28): message : while trying to match the argument list '()'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(40,28): error C2660: 'Admin::approveProperty': function does not take 0 arguments
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(12,7): message : see declaration of 'Admin::approveProperty'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(40,28): message : while trying to match the argument list '()'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(43,28): error C2660: 'Admin::highlightProperty': function does not take 0 arguments
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(13,7): message : see declaration of 'Admin::highlightProperty'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(43,28): message : while trying to match the argument list '()'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(90,30): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(98,50): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(98,50): message : No constructor could take the source type, or constructor overload resolution was ambiguous
   DS-PROJECT.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(4417,28): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(10619,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(21,1): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(208,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(504,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(13,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(13,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(14,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(15,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(134,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(14,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(14,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(15,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(16,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(917,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(15,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(15,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(16,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(17,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(1083,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(18,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(18,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(19,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(20,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(239,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(30,9): warning C4079: unexpected token 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(30,32): warning C4081: expected 'newline'; found ')'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(31,23): warning C4081: expected 'constant'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(32,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(4479,27): warning C4081: expected ')'; found 'string'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(4629,9): warning C4161: #pragma pack(pop...): more pops than pushes
-C:\Users\Mostafa\source\repos\DS-Project\DS-PROJECT.cpp(80,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(9,12): error C2011: 'Auth': 'class' type redefinition
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(9,7): message : see declaration of 'Auth'
+  files.cpp
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(10,33): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'User'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(10,33): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,27): error C2039: 'username': is not a member of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,52): error C2039: 'password': is not a member of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,77): error C2039: 'email': is not a member of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(22,26): error C2039: 'phoneNumber': is not a member of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(22,54): error C2039: 'isAdmin': is not a member of 'std::vector<User,std::allocator<User>>'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
   globals.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(13,1): fatal  error C1004: unexpected end-of-file found
-  listingsTree.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\listingsTree.cpp(78,1): fatal  error C1004: unexpected end-of-file found
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+  rbtree.cpp
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,17): error C2143: syntax error: missing ';' before '<'
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,1): message : see reference to class template instantiation 'RBTree<Key,Value>::Node' being compiled
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(115,2): message : see reference to class template instantiation 'RBTree<Key,Value>' being compiled
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,25): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(78,58): error C2061: syntax error: identifier 'vector'
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,13): error C3861: 'properties': identifier not found
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,13): error C2065: 'properties': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(82,50): error C3861: 'result': identifier not found
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(85,51): error C3861: 'result': identifier not found
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(90,17): error C3861: 'result': identifier not found
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(82,50): error C2065: 'result': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(85,51): error C2065: 'result': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(90,17): error C2065: 'result': undeclared identifier
   search.cpp
-C:\Users\Mostafa\source\repos\DS-Project\models.h(45,9): error C2612: trailing 'identifier' illegal in base/member initializer list
-C:\Users\Mostafa\source\repos\DS-Project\search.cpp(28,1): fatal  error C1004: unexpected end-of-file found
-  trie.cpp
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): error C2512: 'User': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(24,98): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Mostafa\source\repos\DS-Project\property.h(25,1): error C2832: 'Property::approvedBy': a reference type cannot be value-initialized
+C:\Users\Mostafa\source\repos\DS-Project\property.h(14,11): message : see declaration of 'Property::approvedBy'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(11,27): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(11,23): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(11,25): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(11,35): error C2143: syntax error: missing ';' before ')'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(19,27): error C2065: 'listings': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(19,23): error C2512: 'Property': no appropriate default constructor available
+C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(19,25): error C2143: syntax error: missing ';' before ':'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(19,35): error C2143: syntax error: missing ';' before ')'
   Generating Code...

@@ -5,7 +5,8 @@
 #include <vector>
 #include <string>
 #include <map>
-#include "models.h"
+#include "property.h"
+#include "user.h"
 #include "globals.h"
 
 using namespace std;
