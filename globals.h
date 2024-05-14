@@ -2,7 +2,7 @@
 #include<iostream>
 #include "trie.h"
 #include "models.h"
-#include "avltree.h"
+#include "rbtree.cpp"
 using namespace std;
 extern Trie* trie;
 extern vector<Property> listings;
