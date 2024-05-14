@@ -5,7 +5,6 @@
 #include "property.h"
 #include "user.h"
 #include "rbtree.cpp"
-#include "database.h"
 #include "search.h"
 
 using namespace std;

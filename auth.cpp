@@ -10,8 +10,8 @@
 //	return string(hash);
 //}
 
-void Auth::registerUser(string username, string email, string password, string phone) {
-	User* newUser = new User(username, email, password, phone);
+void Auth::registerUser(string username, string email, string password, string phone,string name) {
+	User* newUser = new User(username, email, password, phone, name);
 	usersList.push_back(newUser);
 }
 

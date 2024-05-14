@@ -6,8 +6,6 @@
 #include <conio.h>
 #include <sstream>
 #include "search.h"
-#include "auth.h"
-#include "database.h"
 #include "display.h"
 #include "files.h"
 

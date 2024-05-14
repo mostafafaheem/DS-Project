@@ -11,24 +11,21 @@ public:
     int baths;
     string type;
     string description;
-    string approvedBy; // Reference to approved user
-    string listedBy;   // Reference to listing user
+    string approvedBy; 
+    string listedBy;  
     string location;
     float price;
     bool approved;
     bool highlighted;
 
     // Constructor
-    Property(int id, int beds, int baths, const std::string& type, const std::string& description,
-        const std::string& loc, float p, User& listedBy)
-        : id(id), beds(beds), baths(baths), type(type), description(description), approvedBy(User()), listedBy(listedBy),
+    Property(int id, int beds, int baths, const std::string& type, const std::string& description, const std::string& approvedBy, const std::string& listedBy,
+        const std::string& loc, float p)
+        : id(id), beds(beds), baths(baths), type(type), description(description), approvedBy(approvedBy), listedBy(listedBy),
         location(loc), price(p), approved(false), highlighted(false) {}
 
     // Overloaded Constructor with approvedBy parameter
-    Property(int id, int beds, int baths, const std::string& type, const std::string& description,
-        const std::string& loc, float p, User& approvedBy, User& listedBy)
-        : id(id), beds(beds), baths(baths), type(type), description(description), approvedBy(approvedBy), listedBy(listedBy),
-        location(loc), price(p), approved(true), highlighted(false) {}
+  
 };
 
 #endif // PROPERTY_H

@@ -129,19 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="auth.cpp" />
-    <ClCompile Include="database.cpp" />
     <ClCompile Include="display.cpp" />
     <ClCompile Include="DS-PROJECT.cpp" />
     <ClCompile Include="files.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="rbtree.cpp" />
-    <ClCompile Include="search.cpp" />
     <ClCompile Include="trie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="auth.h" />
-    <ClInclude Include="database.h" />
     <ClInclude Include="display.h" />
     <ClInclude Include="files.h" />
     <ClInclude Include="globals.h" />

@@ -170,6 +170,7 @@ void Display::signupWindow() {
     string username;
     string password;
     string phoneNumber;
+    string name;
     Auth attempt;
 
     cout << "Please enter your email: " << endl;
@@ -223,7 +224,8 @@ void Display::signupWindow() {
             }
         }
     } while (!regex_match(phoneNumber, phonePattern));
-
+    cout << "Now please enter your name: " << endl;
+    cin >> name;
     cout << "Finally, please enter your chosen username: " << endl;
     do {
         cin >> username;
@@ -238,5 +240,5 @@ void Display::signupWindow() {
             }
         }
     } while (!regex_match(username, usernamePattern));
-    attempt.registerUser(username, email, password, phoneNumber);
+    attempt.registerUser(username, email, password, phoneNumber, name);
 }

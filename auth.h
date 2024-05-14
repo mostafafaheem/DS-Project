@@ -9,6 +9,6 @@ using namespace std;
 class Auth {
 public:
 	//string hashPassword(const string& password);
-	void registerUser(string username, string email, string password, string phone);
+	void registerUser(string username, string email, string password, string phone, string name);
 	bool loginUser(int loginType, string accountInfo, string password);
 };
