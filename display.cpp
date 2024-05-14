@@ -63,6 +63,7 @@ void Display::mainWindow() {
             switch (userSelection)
             {
             case 1:
+
                 break;
             case 2:
                 break;
@@ -97,7 +98,9 @@ void Display::mainWindow() {
                 cin >> description;
                 cout << "How much would you like to list your property for?" << endl;
                 cin >> price;
-                properties.insert(price, Property(3, 2, "Property A", "House", "Description A", "Features A", "Location A", price));
+                ++idCounter;
+                properties.insert(price, Property(idCounter,beds, baths, type, description, location, price));
+                listings.push_back(Property(idCounter,beds, baths, type, description, location, price));
 
                 break;
             default:

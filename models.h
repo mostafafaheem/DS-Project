@@ -23,11 +23,13 @@ public:
     bool approved;
     bool highlighted;
 
-    Property(const int& beds, const int& baths, const string& n, const string& type, const string& description, const string& features, const string& loc, float p)
-        : name(n), location(loc), price(p), beds(beds), baths(baths), type(type), description(description), features(features) {
+    Property(const int& beds, const int& baths, const string& type, const string& description , const string& loc, float p)
+        : location(loc), price(p), beds(beds), baths(baths), type(type), description(description) {
         id = ++idCounter;
         approved = false;
         highlighted = false;
+        listedBy = currentLoggedIn;
+        approvedBy = NULL;
     }
 };
 

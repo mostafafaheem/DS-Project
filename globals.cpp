@@ -7,7 +7,7 @@
 using namespace std;
 
 Trie* trie = new Trie();
-vector<property> listings;
-vector<user*> usersList;
+vector<property> properties;
+vector<User*> usersList;
 User* currentLoggedIn = NULL;
 RBTree<float, Property> properties;
