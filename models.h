@@ -16,10 +16,8 @@ public:
     int baths;
     string type;
     string description;
-    string features;
     User* approvedBy;
     User* listedBy;
-    string name;
     string location;
     float price;
     bool approved;

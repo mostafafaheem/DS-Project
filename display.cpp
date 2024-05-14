@@ -52,7 +52,59 @@ void Display::mainWindow() {
         }
         else
         {
+            cout << "Welcome to the Real Estate Portal System! What actions would you like to perform?" << endl;
+            cout << "1-Search for a property" << endl;
+            cout << "2-Show random propertiess you may like" << endl;
+            cout << "3-Compare properties" << endl;
+            cout << "4-Post your own property" << endl;
+            int userSelection;
+            do
+            {
+            switch (userSelection)
+            {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                int beds;
+                int baths;
+                string type;
+                string description;
+                string location;
+                float price;
+                int saleRent;
+                cout << "Where is your property located?" << endl;
+                cin >> location;
+                cout << "How many bedrooms does your property have?" << endl;
+                cin >> beds;
+                cout << "How many bathrooms does your property have?" << endl;
+                cin >> baths;                
+                cout << "Is your property: \n1-For rent\n2-For sale" << endl;
+                do
+                {
+                    cin >> saleRent;
+                    if (saleRent == 1)
+                        type = "rental";
+                    else if (saleRent == 2)
+                        type == "sale"
+                    else
+                        cout << "Invalid choice, please try again!";
+                } while (saleRent == 1 || saleRent == 2);
+                cout << "Now, please provide a brief description of your property!" << endl;
+                cin >> description;
+                cout << "How much would you like to list your property for?" << endl;
+                cin >> price;
+                properties.insert(price, Property(3, 2, "Property A", "House", "Description A", "Features A", "Location A", price));
 
+                break;
+            default:
+                cout << "Invalid choice, please try again!"
+                    break;
+                }
+            } while (userSelection == 1 || userSelection == 2 || userSelection == 3 || userSelection == 4);
         }
     }
 }
@@ -187,6 +239,5 @@ void Display::signupWindow() {
             }
         }
     } while (!regex_match(username, usernamePattern));
-
     attempt.registerUser(username, email, password, phoneNumber);
 }
