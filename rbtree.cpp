@@ -93,14 +93,4 @@ public:
     // Other functions like search, remove, etc. can be implemented here
 };
 
-int main() {
-    RBTree<float, Property> properties;
-
-    // Example usage
-    properties.insert(100000, Property(3, 2, "Example Property", "House", "A beautiful house", "Swimming pool, garden", "New York", 500000));
-    properties.insert(80000, Property(2, 1, "Another Property", "Apartment", "A cozy apartment", "Gym, parking", "Los Angeles", 300000));
-    properties.insert(120000, Property(4, 3, "Luxury Villa", "Villa", "Luxurious villa", "Spa, tennis court", "Miami", 1000000));
-
-    return 0;
-}
 

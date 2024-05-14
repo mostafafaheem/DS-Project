@@ -99,9 +99,9 @@ void Display::mainWindow() {
                 cout << "How much would you like to list your property for?" << endl;
                 cin >> price;
                 ++idCounter;
-                properties.insert(price, Property(idCounter,beds, baths, type, description, location, price));
-                listings.push_back(Property(idCounter,beds, baths, type, description, location, price));
-
+                propertyMap[idCounter] = Property(idCounter, beds, baths, type, description, location, price);
+                properties.insert(price, &propertyMap[idCounter]);
+                 
                 break;
             default:
                 cout << "Invalid choice, please try again!"
