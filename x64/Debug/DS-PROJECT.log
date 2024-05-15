@@ -1,7 +1,4 @@
-﻿  display.cpp
-  files.cpp
-  Generating Code...
-globals.obj : error LNK2005: "class User * currentLoggedIn" (?currentLoggedIn@@3PEAVUser@@EA) already defined in display.obj
+﻿globals.obj : error LNK2005: "class User * currentLoggedIn" (?currentLoggedIn@@3PEAVUser@@EA) already defined in display.obj
 globals.obj : error LNK2005: "class Trie * trie" (?trie@@3PEAVTrie@@EA) already defined in display.obj
 globals.obj : error LNK2005: "class std::vector<class User *,class std::allocator<class User *> > usersList" (?usersList@@3V?$vector@PEAVUser@@V?$allocator@PEAVUser@@@std@@@std@@A) already defined in display.obj
 globals.obj : error LNK2005: "class std::unordered_map<int,class Property,struct std::hash<int>,struct std::equal_to<int>,class std::allocator<struct std::pair<int const ,class Property> > > propertyMap" (?propertyMap@@3V?$unordered_map@HVProperty@@U?$hash@H@std@@U?$equal_to@H@3@V?$allocator@U?$pair@$$CBHVProperty@@@std@@@3@@std@@A) already defined in display.obj
