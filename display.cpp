@@ -25,22 +25,25 @@ void Display::mainWindow() {
         {
             cout << "Welcome back Mr. " << "name" << "! choose which action you want to perform:";
             int adminSelection;
+            int id;
+            cout << "1. Delete Property" << endl << "2. Edit Property" << endl << "3.Approve Property" << endl << "4. Highlight Property" << endl;
+            cin >> adminSelection;
+            cin >> id;
             do
             {
-                cout << "1. Delete Property" << endl << "2. Edit Property" << endl << "3.Approve Property" << endl << "4. Highlight Property" << endl;
                 switch (adminSelection)
                 {
                 case 1:
-                    session.deleteProperty();
+                    session.deleteProperty(id);
                     break;
                 case 2:
-                    session.editProperty();
+                    session.editProperty(id);
                     break;
                 case 3:
-                    session.approveProperty();
+                    session.approveProperty(id);
                     break;
                 case 4:
-                    session.highlightProperty();
+                    session.highlightProperty(id);
                     break;
                 default:
                     break;
@@ -64,6 +67,7 @@ void Display::mainWindow() {
             int saleRent;
             do
             {
+                cin >> userSelection;
             switch (userSelection)
             {
             case 1:
@@ -87,7 +91,7 @@ void Display::mainWindow() {
                     if (saleRent == 1)
                         type = "rental";
                     else if (saleRent == 2)
-                        type == "sale";
+                        type = "sale";
                     else
                         cout << "Invalid choice, please try again!";
                 } while (saleRent == 1 || saleRent == 2);
@@ -95,8 +99,8 @@ void Display::mainWindow() {
                 cin >> description;
                 cout << "How much would you like to list your property for?" << endl;
                 cin >> price;
-                propertyMap[idCounter] = Property(idCounter, beds, baths, type, description, location, price);
-                properties.insert(price, & propertyMap[idCounter]);
+                propertyMap[idCounter] = Property(idCounter, beds, baths, type, description,currentLoggedIn->username, location, price);
+//                 properties.insert(price, & propertyMap[idCounter]);
                  
                 break;
             default:

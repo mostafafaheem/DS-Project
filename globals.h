@@ -12,5 +12,5 @@ extern  int idCounter;
 extern Trie* trie;
 extern vector<User*> usersList;
 extern User* currentLoggedIn;
-extern RBTree<float, Property*> properties;
+//extern RBTree<float, Property*> properties;
 extern unordered_map<int, Property> propertyMap;

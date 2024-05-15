@@ -1,68 +1,9 @@
-﻿  Admin.cpp
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(5,22): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,7): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,29): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(6,44): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,20): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,16): error C2512: 'Property': no appropriate default constructor available
-C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,18): error C2143: syntax error: missing ';' before ':'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(13,28): error C2143: syntax error: missing ';' before ')'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(15,30): error C2039: 'name': is not a member of 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(16,66): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,20): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,16): error C2512: 'Property': no appropriate default constructor available
-C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,18): error C2143: syntax error: missing ';' before ':'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(24,28): error C2143: syntax error: missing ';' before ')'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,20): error C2065: 'listings': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,16): error C2512: 'Property': no appropriate default constructor available
-C:\Users\Mostafa\source\repos\DS-Project\property.h(7,7): message : see declaration of 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,18): error C2143: syntax error: missing ';' before ':'
-C:\Users\Mostafa\source\repos\DS-Project\Admin.cpp(33,28): error C2143: syntax error: missing ';' before ')'
-  display.cpp
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(34,28): error C2660: 'Admin::deleteProperty': function does not take 0 arguments
-C:\Users\Mostafa\source\repos\DS-Project\admin.h(10,7): message : see declaration of 'Admin::deleteProperty'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(34,28): message : while trying to match the argument list '()'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(37,28): error C2660: 'Admin::editProperty': function does not take 0 arguments
-C:\Users\Mostafa\source\repos\DS-Project\admin.h(11,7): message : see declaration of 'Admin::editProperty'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(37,28): message : while trying to match the argument list '()'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(40,28): error C2660: 'Admin::approveProperty': function does not take 0 arguments
-C:\Users\Mostafa\source\repos\DS-Project\admin.h(12,7): message : see declaration of 'Admin::approveProperty'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(40,28): message : while trying to match the argument list '()'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(43,28): error C2660: 'Admin::highlightProperty': function does not take 0 arguments
-C:\Users\Mostafa\source\repos\DS-Project\admin.h(13,7): message : see declaration of 'Admin::highlightProperty'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(43,28): message : while trying to match the argument list '()'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(90,30): warning C4834: discarding return value of function with 'nodiscard' attribute
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(98,50): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Property'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(98,50): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+﻿  display.cpp
   files.cpp
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(10,33): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'User'
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(10,33): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,27): error C2039: 'username': is not a member of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,52): error C2039: 'password': is not a member of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(21,77): error C2039: 'email': is not a member of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(22,26): error C2039: 'phoneNumber': is not a member of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.cpp(22,54): error C2039: 'isAdmin': is not a member of 'std::vector<User,std::allocator<User>>'
-C:\Users\Mostafa\source\repos\DS-Project\files.h(13,2): message : see declaration of 'std::vector<User,std::allocator<User>>'
-  rbtree.cpp
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,17): error C2143: syntax error: missing ';' before '<'
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,1): message : see reference to class template instantiation 'RBTree<Key,Value>::Node' being compiled
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(115,2): message : see reference to class template instantiation 'RBTree<Key,Value>' being compiled
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(14,25): error C2238: unexpected token(s) preceding ';'
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(78,58): error C2061: syntax error: identifier 'vector'
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,13): error C3861: 'properties': identifier not found
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(20,13): error C2065: 'properties': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(82,50): error C3861: 'result': identifier not found
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(85,51): error C3861: 'result': identifier not found
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(90,17): error C3861: 'result': identifier not found
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(82,50): error C2065: 'result': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(85,51): error C2065: 'result': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\rbtree.cpp(90,17): error C2065: 'result': undeclared identifier
   Generating Code...
+globals.obj : error LNK2005: "class User * currentLoggedIn" (?currentLoggedIn@@3PEAVUser@@EA) already defined in display.obj
+globals.obj : error LNK2005: "class Trie * trie" (?trie@@3PEAVTrie@@EA) already defined in display.obj
+globals.obj : error LNK2005: "class std::vector<class User *,class std::allocator<class User *> > usersList" (?usersList@@3V?$vector@PEAVUser@@V?$allocator@PEAVUser@@@std@@@std@@A) already defined in display.obj
+globals.obj : error LNK2005: "class std::unordered_map<int,class Property,struct std::hash<int>,struct std::equal_to<int>,class std::allocator<struct std::pair<int const ,class Property> > > propertyMap" (?propertyMap@@3V?$unordered_map@HVProperty@@U?$hash@H@std@@U?$equal_to@H@3@V?$allocator@U?$pair@$$CBHVProperty@@@std@@@3@@std@@A) already defined in display.obj
+DS-PROJECT.obj : error LNK2019: unresolved external symbol "public: void __cdecl Files::writeUserDataToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class User,class std::allocator<class User> > const &)" (?writeUserDataToFile@Files@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@VUser@@V?$allocator@VUser@@@std@@@3@@Z) referenced in function main
+C:\Users\Mostafa\source\repos\DS-Project\x64\Debug\DS-PROJECT.exe : fatal error LNK1120: 1 unresolved externals
