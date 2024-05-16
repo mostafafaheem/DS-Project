@@ -134,10 +134,11 @@
     <ClCompile Include="files.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="rbtree.cpp" />
+    <ClCompile Include="search.cpp" />
     <ClCompile Include="trie.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Admin.h" />
+    <ClInclude Include="admin.h" />
     <ClInclude Include="auth.h" />
     <ClInclude Include="display.h" />
     <ClInclude Include="files.h" />

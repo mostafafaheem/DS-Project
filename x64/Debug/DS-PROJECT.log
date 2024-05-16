@@ -1,6 +1,31 @@
-﻿globals.obj : error LNK2005: "class User * currentLoggedIn" (?currentLoggedIn@@3PEAVUser@@EA) already defined in display.obj
-globals.obj : error LNK2005: "class Trie * trie" (?trie@@3PEAVTrie@@EA) already defined in display.obj
-globals.obj : error LNK2005: "class std::vector<class User *,class std::allocator<class User *> > usersList" (?usersList@@3V?$vector@PEAVUser@@V?$allocator@PEAVUser@@@std@@@std@@A) already defined in display.obj
-globals.obj : error LNK2005: "class std::unordered_map<int,class Property,struct std::hash<int>,struct std::equal_to<int>,class std::allocator<struct std::pair<int const ,class Property> > > propertyMap" (?propertyMap@@3V?$unordered_map@HVProperty@@U?$hash@H@std@@U?$equal_to@H@3@V?$allocator@U?$pair@$$CBHVProperty@@@std@@@3@@std@@A) already defined in display.obj
-DS-PROJECT.obj : error LNK2019: unresolved external symbol "public: void __cdecl Files::writeUserDataToFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class User,class std::allocator<class User> > const &)" (?writeUserDataToFile@Files@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@VUser@@V?$allocator@VUser@@@std@@@3@@Z) referenced in function main
-C:\Users\Mostafa\source\repos\DS-Project\x64\Debug\DS-PROJECT.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Admin.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+  auth.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+  display.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,20): error C2146: syntax error: missing ';' before identifier 'instance'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,13): warning C4551: function call missing argument list
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,20): error C2065: 'instance': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(168,9): error C2065: 'isLoggedIn': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(169,14): error C2065: 'isLoggedIn': undeclared identifier
+  DS-PROJECT.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+  files.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+  globals.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+  rbtree.cpp
+  search.cpp
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(32,18): error C2653: 'search': is not a class or namespace name
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(43,18): error C2653: 'search': is not a class or namespace name
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(54,18): error C2653: 'search': is not a class or namespace name
+  Generating Code...

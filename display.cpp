@@ -1,5 +1,4 @@
 #include "display.h"
-#include "globals.cpp"
 
 void Display::mainWindow() {
     cout <<""<< "Are you an existing user? (select 1), or would you like to create an account? (select 2): ";
@@ -19,6 +18,7 @@ void Display::mainWindow() {
             break;
         default:
             cout << "Incorrect input, please try again: ";
+            break;
         }
         Admin session;
         if (currentLoggedIn != NULL && currentLoggedIn->isAdmin)
@@ -27,30 +27,38 @@ void Display::mainWindow() {
             int adminSelection;
             int id;
             cout << "1. Delete Property" << endl << "2. Edit Property" << endl << "3.Approve Property" << endl << "4. Highlight Property" << endl;
-            cin >> adminSelection;
-            cin >> id;
             do
             {
+            cin >> adminSelection;
                 switch (adminSelection)
                 {
                 case 1:
+                    cout << "Choose the id of the property you want to delete: " << endl;
+                    cin >> id;
                     session.deleteProperty(id);
                     break;
                 case 2:
+                    cout << "Choose the id of the property you want to edit: " << endl;
+                    cin >> id;
                     session.editProperty(id);
                     break;
                 case 3:
+                    cout << "Choose the id of the property you want to approve: " << endl;
+                    cin >> id;
                     session.approveProperty(id);
                     break;
                 case 4:
+                    cout << "Choose the id of the property you want to hicghlight: " << endl;
+                    cin >> id;
                     session.highlightProperty(id);
                     break;
                 default:
+                    cout << "Incorrect input, please try again: ";
                     break;
                 }
             } while (adminSelection == 1 || adminSelection == 2 || adminSelection == 3 || adminSelection == 4);
         }
-        else
+        else if (currentLoggedIn != NULL && !currentLoggedIn->isAdmin)
         {
             cout << "Welcome to the Real Estate Portal System! What actions would you like to perform?" << endl;
             cout << "1-Search for a property" << endl;
@@ -58,20 +66,44 @@ void Display::mainWindow() {
             cout << "3-Compare properties" << endl;
             cout << "4-Post your own property" << endl;
             int userSelection;
+            int minBeds;
+            int minBaths;
+            int maxBeds;
+            int maxBaths;
             int beds;
             int baths;
             string type;
             string description;
             string location;
+            float minPrice;
+            float maxPrice;
             float price;
             int saleRent;
+            int criteria;
+            Search instance;
             do
             {
                 cin >> userSelection;
             switch (userSelection)
             {
             case 1:
-
+                cout << "Where are you searching for properties? Type \"anywhere\" if you do not have any specific preference: " << endl;
+                cin >> location;
+                cout << "What is the least number of bedrooms you would like in your property? " << endl;
+                cin >> minBeds;
+                cout << "and the most? "<< endl;
+                cin >> maxBeds;
+                cout << "What is the least number of bathrooms you would like in your property? " << endl;
+                cin >> minBaths;
+                cout << "and the most? " << endl;
+                cin >> maxBaths;
+                cout << "Would you like seeing properties for rent (type\"rental\"), sale (type\"sale\"), or both (type\"both\")?" << endl;
+                cin >> type;
+                cout << "What is the minimum price point you are searching for? "<<endl;
+                cin >> minPrice;
+                cout << "and the maximum? " << endl;
+                cin >> maxPrice;
+                instance.compositePropertySearch(propertyMap, minBeds, maxBeds, minBaths, maxBaths, minPrice, maxPrice, location, type);
                 break;
             case 2:
                 break;
@@ -121,7 +153,6 @@ void Display::loginWindow() {
     static const regex phonePattern("^(010|011|012|015)\\d{8}$");
     Auth attempt;
     int loginType;
-    bool isLoggedIn;
     cout << "Please enter your username, email, or phone number to sign in:" << endl;
     do {
         cin >> entry;
@@ -161,7 +192,7 @@ void Display::loginWindow() {
         if (!isLoggedIn) {
             cout << "This account does not exist or the credentials are incorrect, please try again!" << endl;
         }
-    } while (!isLoggedIn);
+    } while (currentLoggedIn!=NULL);
 }
 
 void Display::signupWindow() {

@@ -4,12 +4,13 @@
 #include "trie.h"
 #include "property.h"
 #include "user.h"
-#include "rbtree.cpp"
+//#include "rbtree.cpp"
 #include "search.h"
 
 using namespace std;
-extern  int idCounter;
 extern Trie* trie;
+extern atomic<int> idCounter;
+
 extern vector<User*> usersList;
 extern User* currentLoggedIn;
 //extern RBTree<float, Property*> properties;

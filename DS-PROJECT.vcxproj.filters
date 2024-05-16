@@ -39,6 +39,9 @@
     <ClCompile Include="rbtree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h">
@@ -50,10 +53,7 @@
     <ClInclude Include="property.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="search.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Admin.h">
+    <ClInclude Include="admin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="auth.h">
@@ -67,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="user.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
