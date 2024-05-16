@@ -1,31 +1,152 @@
-﻿  Admin.cpp
+﻿  admin.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(11,18): error C2071: 'Search::trie': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): error C2071: 'Search::idCounter': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(14,22): error C2071: 'Search::usersList': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(15,29): error C2071: 'Search::currentLoggedIn': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(17,37): error C2071: 'Search::propertyMap': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(3,13): error C3254: 'Search': class contains explicit override 'deleteProperty' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(3,13): error C2838: 'deleteProperty': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(9,13): error C3254: 'Search': class contains explicit override 'editProperty' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(9,13): error C2838: 'editProperty': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(15,13): error C3254: 'Search': class contains explicit override 'approveProperty' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(15,13): error C2838: 'approveProperty': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(21,13): error C3254: 'Search': class contains explicit override 'highlightProperty' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\admin.cpp(21,13): error C2838: 'highlightProperty': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   auth.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(11,18): error C2071: 'Search::trie': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): error C2071: 'Search::idCounter': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(14,22): error C2071: 'Search::usersList': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(15,29): error C2071: 'Search::currentLoggedIn': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(17,37): error C2071: 'Search::propertyMap': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(13,12): error C3254: 'Search': class contains explicit override 'registerUser' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(13,12): error C2838: 'registerUser': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(18,12): error C3254: 'Search': class contains explicit override 'loginUser' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\auth.cpp(18,12): error C2838: 'loginUser': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   display.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,20): error C2146: syntax error: missing ';' before identifier 'instance'
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,13): warning C4551: function call missing argument list
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(76,20): error C2065: 'instance': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(168,9): error C2065: 'isLoggedIn': undeclared identifier
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(169,14): error C2065: 'isLoggedIn': undeclared identifier
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(11,18): error C2071: 'Search::trie': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): error C2071: 'Search::idCounter': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(14,22): error C2071: 'Search::usersList': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(15,29): error C2071: 'Search::currentLoggedIn': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(17,37): error C2071: 'Search::propertyMap': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\display.h(11,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\display.h(11,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(3,15): error C3254: 'Search': class contains explicit override 'mainWindow' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(3,15): error C2838: 'mainWindow': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(147,15): error C3254: 'Search': class contains explicit override 'loginWindow' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(147,15): error C2838: 'loginWindow': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(198,15): error C3254: 'Search': class contains explicit override 'signupWindow' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\display.cpp(198,15): error C2838: 'signupWindow': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   DS-PROJECT.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(22,1): error C2059: syntax error: 'string'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(22,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocbuf(20,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(20,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmes(20,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(21,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocmon(21,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(22,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xloctime(22,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(25,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\locale(25,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(59,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\regex(59,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\auth.h(7,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\admin.h(6,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\display.h(11,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\display.h(11,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(9,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(9,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\DS-PROJECT.cpp(12,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\DS-PROJECT.cpp(12,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   files.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(11,18): error C2071: 'Search::trie': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): error C2071: 'Search::idCounter': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(14,22): error C2071: 'Search::usersList': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(15,29): error C2071: 'Search::currentLoggedIn': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(17,37): error C2071: 'Search::propertyMap': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\files.h(9,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\files.h(9,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(3,21): error C3254: 'Search': class contains explicit override 'readUserDataFromFile' but does not derive from an interface that contains the function declaration
+C:\Users\Mostafa\source\repos\DS-Project\files.cpp(3,21): error C2838: 'readUserDataFromFile': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   globals.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
-  rbtree.cpp
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(10,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(11,18): error C2071: 'Search::trie': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): error C2071: 'Search::idCounter': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(14,22): error C2071: 'Search::usersList': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(15,29): error C2071: 'Search::currentLoggedIn': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(17,37): error C2071: 'Search::propertyMap': illegal storage class
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(3,7): error C2086: 'Trie *Search::trie': redefinition
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(4,23): error C2059: syntax error: 'constant'
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(4,13): error C2365: 'Search::idCounter': redefinition; previous definition was 'data member'
+C:\Users\Mostafa\source\repos\DS-Project\globals.h(12,20): message : see declaration of 'Search::idCounter'
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(5,15): error C2086: 'std::vector<User *,std::allocator<User *>> Search::usersList': redefinition
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(6,7): error C2086: 'User *Search::currentLoggedIn': redefinition
+C:\Users\Mostafa\source\repos\DS-Project\globals.cpp(7,30): error C2086: 'std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> Search::propertyMap': redefinition
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   search.cpp
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,146): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
 C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
-C:\Users\Mostafa\source\repos\DS-Project\search.cpp(32,18): error C2653: 'search': is not a class or namespace name
-C:\Users\Mostafa\source\repos\DS-Project\search.cpp(43,18): error C2653: 'search': is not a class or namespace name
-C:\Users\Mostafa\source\repos\DS-Project\search.cpp(54,18): error C2653: 'search': is not a class or namespace name
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(3,7): error C2059: syntax error: 'using namespace'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(3,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(5,24): error C4596: 'searchByName': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(5,24): error C2535: 'std::vector<std::string,std::allocator<std::string>> Search::searchByName(std::string)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(14,20): message : see declaration of 'Search::searchByName'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(10,26): error C4596: 'filterByLocation': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(10,26): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByLocation(std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,std::string)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(15,22): message : see declaration of 'Search::filterByLocation'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(22,31): error C4596: 'filterByPrice': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(22,31): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByPrice(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,float,float)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(16,22): message : see declaration of 'Search::filterByPrice'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(32,26): error C4596: 'filterByBedrooms': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(32,26): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBedrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(17,22): message : see declaration of 'Search::filterByBedrooms'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(43,26): error C4596: 'filterByBathrooms': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(43,26): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByBathrooms(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(18,22): message : see declaration of 'Search::filterByBathrooms'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(54,26): error C4596: 'filterByType': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(54,26): error C2535: 'std::vector<Property,std::allocator<Property>> Search::filterByType(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,std::string)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(19,22): message : see declaration of 'Search::filterByType'
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(65,26): error C4596: 'compositePropertySearch': illegal qualified name in member declaration
+C:\Users\Mostafa\source\repos\DS-Project\search.cpp(65,26): error C2535: 'std::vector<Property,std::allocator<Property>> Search::compositePropertySearch(const std::unordered_map<int,Property,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<const int,Property>>> &,int,int,int,int,float,float,const std::string &,const std::string &)': member function already defined or declared
+C:\Users\Mostafa\source\repos\DS-Project\search.h(20,22): message : see declaration of 'Search::compositePropertySearch'
+C:\Users\Mostafa\source\repos\DS-Project\search.h(12): fatal  error C1075: '{': no matching token found
   Generating Code...

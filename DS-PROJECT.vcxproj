@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="admin.cpp" />
     <ClCompile Include="auth.cpp" />
     <ClCompile Include="display.cpp" />
     <ClCompile Include="DS-PROJECT.cpp" />

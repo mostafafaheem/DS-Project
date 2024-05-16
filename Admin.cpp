@@ -1,4 +1,4 @@
-#include "Admin.h"
+#include "admin.h"
 
 void Admin::deleteProperty(int id) {
 	if (currentLoggedIn == NULL || !currentLoggedIn->isAdmin) return;

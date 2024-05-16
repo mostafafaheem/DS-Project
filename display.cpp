@@ -80,7 +80,7 @@ void Display::mainWindow() {
             float price;
             int saleRent;
             int criteria;
-            Search instance;
+//            Search instance;
             do
             {
                 cin >> userSelection;
@@ -103,7 +103,7 @@ void Display::mainWindow() {
                 cin >> minPrice;
                 cout << "and the maximum? " << endl;
                 cin >> maxPrice;
-                instance.compositePropertySearch(propertyMap, minBeds, maxBeds, minBaths, maxBaths, minPrice, maxPrice, location, type);
+//                instance.compositePropertySearch(propertyMap, minBeds, maxBeds, minBaths, maxBaths, minPrice, maxPrice, location, type);
                 break;
             case 2:
                 break;

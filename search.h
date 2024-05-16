@@ -11,7 +11,7 @@ using namespace std;
 
 class Search {
 public:
-    vector<std::string> searchByName(std::string pre);
+    vector<string> searchByName(std::string pre);
     vector<Property> filterByLocation(unordered_map<int, Property>& propertyMap,std::string state);
     vector<Property> filterByPrice(const std::unordered_map<int, Property>& propertyMap, float minPrice, float maxPrice);
     vector<Property> filterByBedrooms(const std::unordered_map<int, Property>& propertyMap, int minBedrooms, int maxBedrooms);
