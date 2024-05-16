@@ -18,7 +18,6 @@ public:
     vector<Property> filterByBathrooms(const unordered_map<int, Property>& propertyMap, int minBathrooms, int maxBathrooms);    vector<Property> filterByBathrooms(const unordered_map<int, Property>& propertyMap, int minBathrooms, int maxBathrooms);
     vector<Property> filterByType(const unordered_map<int, Property>& propertyMap,string type);
     vector<Property> compositePropertySearch(const unordered_map<int, Property>& propertyMap, int minBedrooms, int maxBedrooms, int minBathrooms, int maxBathrooms, float minPrice, float maxPrice, const string& location, const string& type) {
-
     };
 
 #endif /* SEARCH_H */
