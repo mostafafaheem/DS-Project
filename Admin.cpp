@@ -13,8 +13,9 @@ void Admin::editProperty(int id) {
 
 
 void Admin::approveProperty(int id) {
-	if (currentLoggedIn == NULL || !currentLoggedIn->isAdmin) return;
-	propertyMap.at(id).approved = true;
+	propertyMap[id].approved = true;
+	propertyMap[id].approvedBy = currentLoggedIn->username;
+	approvalQueue.pop();
 }
 
 

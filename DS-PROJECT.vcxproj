@@ -133,8 +133,6 @@
     <ClCompile Include="DS-PROJECT.cpp" />
     <ClCompile Include="files.cpp" />
     <ClCompile Include="globals.cpp" />
-    <ClCompile Include="rbtree.cpp" />
-    <ClCompile Include="search.cpp" />
     <ClCompile Include="trie.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +142,6 @@
     <ClInclude Include="files.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="property.h" />
-    <ClInclude Include="search.h" />
     <ClInclude Include="trie.h" />
     <ClInclude Include="user.h" />
   </ItemGroup>

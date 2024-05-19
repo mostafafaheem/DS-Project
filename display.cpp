@@ -1,8 +1,9 @@
 #include "display.h"
-
+#include <algorithm> 
 void Display::mainWindow() {
-    cout <<""<< "Are you an existing user? (select 1), or would you like to create an account? (select 2): ";
+    cout  << "Are you an existing user? (select 1), or would you like to create an account? (select 2): ";
     bool validInput = false;
+
     int selection;
     while (!validInput) {
         cin >> selection;
@@ -17,7 +18,7 @@ void Display::mainWindow() {
             validInput = true;
             break;
         default:
-            cout << "Incorrect input, please try again: ";
+            std::cout << "Incorrect input, please try again: ";
             break;
         }
         Admin session;
@@ -25,32 +26,140 @@ void Display::mainWindow() {
         {
             cout << "Welcome back Mr. " << "name" << "! choose which action you want to perform:";
             int adminSelection;
+            char adminChoice;
             int id;
             cout << "1. Delete Property" << endl << "2. Edit Property" << endl << "3.Approve Property" << endl << "4. Highlight Property" << endl;
             do
             {
-            cin >> adminSelection;
+                cin >> adminSelection;
                 switch (adminSelection)
                 {
                 case 1:
-                    cout << "Choose the id of the property you want to delete: " << endl;
-                    cin >> id;
-                    session.deleteProperty(id);
+                {
+                    do
+                    {
+                        cout << "Search for property you would like to deletr: " << endl;
+                        cout << "What is the location of the property/properties? Type \"anywhere\" if you do not have any specific preference: " << endl;
+                        cin >> location;
+                        cout << "What is the least number of bedrooms in the property/properties? " << endl;
+                        cin >> minBeds;
+                        cout << "and the most? " << endl;
+                        cin >> maxBeds;
+                        cout << "What is the least number of bathrooms in the property/ies? " << endl;
+                        cin >> minBaths;
+                        cout << "and the most? " << endl;
+                        cin >> maxBaths;
+                        cout << "Would you like seeing properties for rent (type\"rental\"), sale (type\"sale\"), or both (type\"both\")?" << endl;
+                        cin >> type;
+                        cout << "What is the minimum price point you are searching for? " << endl;
+                        cin >> minPrice;
+                        cout << "and the maximum? " << endl;
+                        cin >> maxPrice;
+                        for (const auto& pair : propertyMap) {
+                            const Property& prop = pair.second;
+                            if (prop.beds >= minBeds && prop.beds <= maxBeds &&
+                                prop.baths >= minBaths && prop.baths <= maxBaths &&
+                                prop.price >= minPrice && prop.price <= maxPrice &&
+                                prop.location == location && prop.type == type) {
+                                cout << "Property #" << prop.id << endl <<
+                                    "For" << prop.type << endl <<
+                                    "Located in " << prop.location <<
+                                    "Bedrooms: " << prop.beds << endl <<
+                                    "Bathrooms: " << prop.baths << endl <<
+                                    "Description: " << prop.description << endl <<
+                                    "Price: " << prop.price << endl <<
+                                    "------------------------------------------------------------" << endl;
+                            }
+                        }
+                        cout << "Type the id of the property you would like to delete: " << endl;
+                        cin >> id;
+                        session.deleteProperty(id);
+                        cout << "Would you like to delete another property? (y/n)" << endl;
+                        cin >> adminChoice;
+                    } while (adminChoice == 'y' || adminChoice == 'Y');
                     break;
+                }
                 case 2:
+                {
                     cout << "Choose the id of the property you want to edit: " << endl;
                     cin >> id;
                     session.editProperty(id);
                     break;
+                }
                 case 3:
-                    cout << "Choose the id of the property you want to approve: " << endl;
-                    cin >> id;
-                    session.approveProperty(id);
-                    break;
+                {
+                    char adminChoice;
+                        while (!approvalQueue.empty())
+                        {
+                            std::cout << "Do you want to approve this property?: (y/n)" << endl;
+                            std::cout << "Property #" << approvalQueue.front()->id << "\n"
+                                << "For: " << approvalQueue.front()->type << "\n"
+                                << "Located in: " << approvalQueue.front()->location << "\n"
+                                << "Bedrooms: " << approvalQueue.front()->beds << "\n"
+                                << "Bathrooms: " << approvalQueue.front()->baths << "\n"
+                                << "Description: " << approvalQueue.front()->description << "\n"
+                                << "Price: " << approvalQueue.front()->price << "\n"
+                                << "------------------------------------------------------------\n";
+                            do
+                            {
+                                if (adminChoice == 'y' || adminChoice == 'Y') 
+                                    session.approveProperty(approvalQueue.front()->id);
+                                
+                                else if (adminChoice == 'n' || adminChoice == 'N')
+                                {
+                                    approvalQueue.pop();
+                                    propertyMap.erase(approvalQueue.front()->id);
+
+                                }
+                                else
+                                    cout << "Wrong input, please try again!" << endl;
+
+                            } while (!(adminChoice == 'y' || adminChoice == 'Y'|| adminChoice == 'n' || adminChoice == 'N'));
+                        }                    
+                        break;
+                }
                 case 4:
-                    cout << "Choose the id of the property you want to hicghlight: " << endl;
+                    do
+                    {
+                    cout << "Search for property you would like to highlight: " << endl;
+                    cout << "What is the location of the property/properties? Type \"anywhere\" if you do not have any specific preference: " << endl;
+                    cin >> location;
+                    cout << "What is the least number of bedrooms in the property/properties? " << endl;
+                    cin >> minBeds;
+                    cout << "and the most? " << endl;
+                    cin >> maxBeds;
+                    cout << "What is the least number of bathrooms in the property/ies? " << endl;
+                    cin >> minBaths;
+                    cout << "and the most? " << endl;
+                    cin >> maxBaths;
+                    cout << "Would you like seeing properties for rent (type\"rental\"), sale (type\"sale\"), or both (type\"both\")?" << endl;
+                    cin >> type;
+                    cout << "What is the minimum price point you are searching for? " << endl;
+                    cin >> minPrice;
+                    cout << "and the maximum? " << endl;
+                    cin >> maxPrice;
+                    for (const auto& pair : propertyMap) {
+                        const Property& prop = pair.second;
+                        if (prop.beds >= minBeds && prop.beds <= maxBeds &&
+                            prop.baths >= minBaths && prop.baths <= maxBaths &&
+                            prop.price >= minPrice && prop.price <= maxPrice &&
+                            prop.location == location && prop.type == type) {
+                            cout << "Property #" << prop.id << endl <<
+                                "For" << prop.type << endl <<
+                                "Located in " << prop.location <<
+                                "Bedrooms: " << prop.beds << endl <<
+                                "Bathrooms: " << prop.baths << endl <<
+                                "Description: " << prop.description << endl <<
+                                "Price: " << prop.price << endl <<
+                                "------------------------------------------------------------" << endl;
+                        }
+                    }
+                    cout << "Type the id of the property you would like to highlight: "<<endl;
                     cin >> id;
                     session.highlightProperty(id);
+                    cout << "Would you like to highlight another property? (y/n)" << endl;
+                    cin >> adminChoice;
+                    } while (adminChoice == 'y' || adminChoice == 'Y');
                     break;
                 default:
                     cout << "Incorrect input, please try again: ";
@@ -62,7 +171,7 @@ void Display::mainWindow() {
         {
             cout << "Welcome to the Real Estate Portal System! What actions would you like to perform?" << endl;
             cout << "1-Search for a property" << endl;
-            cout << "2-Show random propertiess you may like" << endl;
+            cout << "2-Show random properties you may like" << endl;
             cout << "3-Compare properties" << endl;
             cout << "4-Post your own property" << endl;
             int userSelection;
@@ -79,19 +188,23 @@ void Display::mainWindow() {
             float maxPrice;
             float price;
             int saleRent;
-            int criteria;
-//            Search instance;
+            const int colWidth = 20;
+            random_device rd;
+            mt19937 gen(rd());
+            vector<Property> highlightedProperties;
+            int* array = new int[4];
             do
             {
                 cin >> userSelection;
             switch (userSelection)
             {
             case 1:
+            {
                 cout << "Where are you searching for properties? Type \"anywhere\" if you do not have any specific preference: " << endl;
                 cin >> location;
                 cout << "What is the least number of bedrooms you would like in your property? " << endl;
                 cin >> minBeds;
-                cout << "and the most? "<< endl;
+                cout << "and the most? " << endl;
                 cin >> maxBeds;
                 cout << "What is the least number of bathrooms you would like in your property? " << endl;
                 cin >> minBaths;
@@ -99,24 +212,137 @@ void Display::mainWindow() {
                 cin >> maxBaths;
                 cout << "Would you like seeing properties for rent (type\"rental\"), sale (type\"sale\"), or both (type\"both\")?" << endl;
                 cin >> type;
-                cout << "What is the minimum price point you are searching for? "<<endl;
+                cout << "What is the minimum price point you are searching for? " << endl;
                 cin >> minPrice;
                 cout << "and the maximum? " << endl;
                 cin >> maxPrice;
-//                instance.compositePropertySearch(propertyMap, minBeds, maxBeds, minBaths, maxBaths, minPrice, maxPrice, location, type);
+                for (const auto& pair : propertyMap) {
+                    const Property& prop = pair.second;
+                    if (prop.beds >= minBeds && prop.beds <= maxBeds &&
+                        prop.baths >= minBaths && prop.baths <= maxBaths &&
+                        prop.price >= minPrice && prop.price <= maxPrice &&
+                        prop.location == location && prop.type == type) {
+                        cout << "Property #" << prop.id << endl <<
+                            "For" << prop.type << endl <<
+                            "Located in " << prop.location <<
+                            "Bedrooms: " << prop.beds << endl <<
+                            "Bathrooms: " << prop.baths << endl <<
+                            "Description: " << prop.description << endl <<
+                            "Price: " << prop.price << endl <<
+                            "------------------------------------------------------------" << endl;
+                    }
+                }
                 break;
+            }
             case 2:
+            {
+                for (const auto& entry : propertyMap) {
+                    if (entry.second.highlighted) {
+                        highlightedProperties.push_back(entry.second);
+                    }
+                }
+                shuffle(highlightedProperties.begin(), highlightedProperties.end(), gen);
+                // Display the first three highlighted properties
+                cout << "Three Random Highlighted Properties:\n";
+                for (int i = 0; i < 3; ++i) {
+                    const Property& prop = highlightedProperties[i];
+                    cout << "Property ID" << prop.id << endl <<
+                        "For" << prop.type << endl <<
+                        "Located in " << prop.location <<
+                        "Bedrooms: " << prop.beds << endl <<
+                        "Bathrooms: " << prop.baths << endl <<
+                        "Description: " << prop.description << endl <<
+                        "Price: " << prop.price << endl <<
+                        "------------------------------------------------------------" << endl;
+                }
+                cout << "These are all the properties that correspond to your search, if none are shown, then unfortunately no listings match your criteria \n Please braden your search and try again!";
                 break;
+            }
             case 3:
+            {
+                cout << "How many properties would you like to compare? (up to 4): ";
+                int numProperties;
+                cin >> numProperties;
+                do
+                {
+                    if (numProperties < 1 || numProperties > 4) {
+                        cout << "You can only compare between 1 and 4 properties, please try again!\n";
+
+                    }
+                } while (numProperties < 1 || numProperties > 4);
+                int* array = new int[numProperties];
+                for (size_t i = 0; i < numProperties; i++)
+                {
+                    cout << "Choose property #" << i + 1 << endl;
+                    cout << "Where are you searching for properties? Type \"anywhere\" if you do not have any specific preference: " << endl;
+                    cin >> location;
+                    cout << "What is the least number of bedrooms you would like in your property? " << endl;
+                    cin >> minBeds;
+                    cout << "and the most? " << endl;
+                    cin >> maxBeds;
+                    cout << "What is the least number of bathrooms you would like in your property? " << endl;
+                    cin >> minBaths;
+                    cout << "and the most? " << endl;
+                    cin >> maxBaths;
+                    cout << "Would you like seeing properties for rent (type\"rental\"), sale (type\"sale\"), or both (type\"both\")?" << endl;
+                    cin >> type;
+                    cout << "What is the minimum price point you are searching for? " << endl;
+                    cin >> minPrice;
+                    cout << "and the maximum? " << endl;
+                    cin >> maxPrice;
+                    for (const auto& pair : propertyMap) {
+                        const Property& prop = pair.second;
+                        if (prop.beds >= minBeds && prop.beds <= maxBeds &&
+                            prop.baths >= minBaths && prop.baths <= maxBaths &&
+                            prop.price >= minPrice && prop.price <= maxPrice &&
+                            prop.location == location && prop.type == type) {
+                            cout << "Property ID: " << prop.id << endl <<
+                                "For " << prop.type << endl <<
+                                "Located in " << prop.location <<
+                                "Bedrooms: " << prop.beds << endl <<
+                                "Bathrooms: " << prop.baths << endl <<
+                                "Description: " << prop.description << endl <<
+                                "Price: " << prop.price << endl <<
+                                "------------------------------------------------------------" << endl;
+                        }
+                    }
+                    cout << "Choose the ID of the property you would like to compare";
+                    do
+                    {
+                        cin >> array[i];
+                        if (array[i] < 0 || array[i] >= idCounter)
+                            cout << "No property with this id exists, please try again! " << endl;
+                    } while (array[i] < 0 || array[i] >= idCounter);
+                }
+                std::cout << std::setw(colWidth) << "Property ID"
+                    << std::setw(colWidth) << "For "
+                    << std::setw(colWidth) << "Located in "
+                    << std::setw(colWidth) << "Bedrooms"
+                    << std::setw(colWidth) << "Bathrooms"
+                    << std::setw(colWidth) << "Price"
+                    << endl;
+                std::cout << std::string(colWidth * 6, '-') << "\n";
+                for (size_t i = 0; i < numProperties; i++)
+                {
+                    std::cout << std::setw(colWidth) << propertyMap[array[i]].id
+                        << std::setw(colWidth) << propertyMap[array[i]].type
+                        << std::setw(colWidth) << propertyMap[array[i]].location
+                        << std::setw(colWidth) << propertyMap[array[i]].beds
+                        << std::setw(colWidth) << propertyMap[array[i]].baths
+                        << std::setw(colWidth) << propertyMap[array[i]].price
+                        << endl;
+                }
                 break;
+            }
             case 4:
-                cout << "Where is your property located?" << endl;
+            {
+                std::cout << "Where is your property located?" << endl;
                 cin >> location;
-                cout << "How many bedrooms does your property have?" << endl;
+                std::cout << "How many bedrooms does your property have?" << endl;
                 cin >> beds;
-                cout << "How many bathrooms does your property have?" << endl;
-                cin >> baths;                
-                cout << "Is your property: \n1-For rent\n2-For sale" << endl;
+                std::cout << "How many bathrooms does your property have?" << endl;
+                cin >> baths;
+                std::cout << "Is your property: \n1-For rent\n2-For sale" << endl;
                 do
                 {
                     cin >> saleRent;
@@ -125,16 +351,17 @@ void Display::mainWindow() {
                     else if (saleRent == 2)
                         type = "sale";
                     else
-                        cout << "Invalid choice, please try again!";
-                } while (saleRent == 1 || saleRent == 2);
-                cout << "Now, please provide a brief description of your property!" << endl;
+                        std::cout << "Invalid choice, please try again!";
+                } while (~saleRent == 1 || ~saleRent == 2);
+                std::cout << "Now, please provide a brief description of your property!" << endl;
                 cin >> description;
                 cout << "How much would you like to list your property for?" << endl;
                 cin >> price;
-                propertyMap[idCounter] = Property(idCounter, beds, baths, type, description,currentLoggedIn->username, location, price);
-//                 properties.insert(price, & propertyMap[idCounter]);
-                 
+                propertyMap[idCounter] = Property(idCounter, beds, baths, type, description, currentLoggedIn->username, location, price);
+                approvalQueue.push(&propertyMap[idCounter]);
+
                 break;
+            }
             default:
                 cout << "Invalid choice, please try again!";
                     break;
@@ -153,8 +380,9 @@ void Display::loginWindow() {
     static const regex phonePattern("^(010|011|012|015)\\d{8}$");
     Auth attempt;
     int loginType;
-    cout << "Please enter your username, email, or phone number to sign in:" << endl;
+    bool isLoggedIn = true;
     do {
+        cout << "Please enter your username, email, or phone number to sign in:" << endl;
         cin >> entry;
         if (regex_match(entry, emailPattern)) {
             loginType = 1;
@@ -192,7 +420,7 @@ void Display::loginWindow() {
         if (!isLoggedIn) {
             cout << "This account does not exist or the credentials are incorrect, please try again!" << endl;
         }
-    } while (currentLoggedIn!=NULL);
+    } while (currentLoggedIn == NULL && !isLoggedIn);
 }
 
 void Display::signupWindow() {
