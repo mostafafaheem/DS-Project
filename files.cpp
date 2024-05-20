@@ -1,34 +1,32 @@
 #include "files.h"
 
-vector<User> Files::readUserDataFromFile(const string& filename) {
-    vector<User> users;
+void Files::readUserDataFromFile(const string& filename, vector<User*>& users) {
     ifstream file(filename);
     if (file.is_open()) {
         string username, password, email, name, phoneNumber;
         bool isAdmin;
         while (file >> username >> password >> email >> phoneNumber >> name >> isAdmin) {
-            users.push_back(User(username, email, password, phoneNumber, name, isAdmin));
+            User* newUser = new User(username, email, password, phoneNumber, name, isAdmin);
+            users.push_back(newUser);
         }
         file.close();
     }
-    return users;
 }
 
-void Files::writeUserDataToFile(const string& filename, const vector<User>& users)
-{
-    std::ofstream file(filename);
+
+void Files::writeUserDataToFile(const string& filename, const vector<User*>& users) {
+    ofstream file(filename);
     if (file.is_open()) {
-        for (const auto& user : users) {
-            file << user.username << " " << user.email << " " << user.password << " "
-                << user.phoneNumber << " " << user.name << " "
-                << (user.isAdmin ? "1" : "0") << std::endl;
+        for (const User* user : users) {
+            file << user->username << " "
+                 << user->password << " "
+                 << user->email << " "
+                 << user->phoneNumber << " "
+                 << user->name << " "
+                 << user->isAdmin << endl;
         }
         file.close();
     }
-    else {
-        std::cerr << "Unable to open file " << filename << std::endl;
-    }
-
 }
 
 void Files::writePropertyDataToFile(const std::string& filename, const std::unordered_map<int, Property>& properties) {

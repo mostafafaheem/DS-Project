@@ -1,3 +1,2 @@
-﻿  display.cpp
-C:\Users\Mostafa\source\repos\DS-Project\display.cpp(245,57): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
-  DS-PROJECT.vcxproj -> C:\Users\Mostafa\Source\Repos\DS-Project\x64\Debug\DS-PROJECT.exe
+﻿  globals.cpp
+  DS-PROJECT.vcxproj -> C:\Users\Mostafa\source\repos\DS-Project\x64\Debug\DS-PROJECT.exe

@@ -5,4 +5,4 @@ atomic<int> idCounter(0);
 vector<User*> usersList;
 User* currentLoggedIn=NULL;
 unordered_map<int, Property> propertyMap;
-queue<Property*> propertyQueue; 
+queue<Property*> approvalQueue; 

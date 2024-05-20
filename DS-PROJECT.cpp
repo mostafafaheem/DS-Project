@@ -14,15 +14,15 @@ using namespace std;
 int main()
 {
 	const string filename = "userdata.txt";
-	Files instance;
+	Files files;
     Display display;
-	vector<User> users = instance.readUserDataFromFile(filename);
+	files.readUserDataFromFile(filename, usersList);
+	files.readPropertyDataFromFile(filename, propertyMap);
     display.mainWindow();
-	instance.writeUserDataToFile(filename, users);
-
+	files.writeUserDataToFile(filename, usersList);
+	files.writePropertyDataToFile(filename,propertyMap);
+	for (User* user : usersList) {
+		delete user;
+	}
     return 0;
 }
-
-
-
-//reads the array of doctors in the file stream
