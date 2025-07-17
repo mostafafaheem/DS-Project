@@ -1,9 +1,8 @@
 #include <string>
 #include <iostream>
 #include <map>
-#include<vector>
+#include <vector>
 using namespace std;
-
 
 struct property {
 	string name;
